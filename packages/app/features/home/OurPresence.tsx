@@ -1,7 +1,7 @@
 export function OurPresence () {
 	return (
 		<section
-			className="relative overflow-hidden py-12 leading-5 text-white  md:pt-24 xl:pb-0"
+			className="relative w-full overflow-hidden py-12 leading-5 text-white  md:pt-24 xl:pb-0"
 			style={{ zIndex: 1 }}
 			id=""
 		>
@@ -66,7 +66,7 @@ export function OurPresence () {
 				<div className="-mx-4 mb-12 mt-0 flex flex-wrap">
 					<div className="w-full max-w-full flex-shrink-0 px-4 md:w-5/12 md:flex-none">
 						<h4
-							className="mb-8 mt-0 transform-none text-5xl font-semibold text-white duration-1000 md:mb-12 md:text-6xl lg:text-6xl lg:leading-none"
+							className="mb-8 mt-0 transform-none text-5xl font-primary font-semibold  text-white duration-1000 md:mb-12 md:text-6xl lg:text-6xl lg:leading-none"
 							data-aos-delay={600}
 							data-aos="fade-up"
 							data-aos-duration={1000}
@@ -74,7 +74,7 @@ export function OurPresence () {
 							Our Presence
 						</h4>
 						<p
-							className="transform-none font-semibold text-white delay-700 duration-1000"
+							className="transform-none font-primary font-semibold  text-white delay-700 duration-1000"
 							data-aos-delay={700}
 							data-aos="fade-up"
 							data-aos-duration={1000}
@@ -105,7 +105,7 @@ export function OurPresence () {
 									role="tabpanel"
 									aria-labelledby="location1-tab"
 								>
-									<div className="font-semibold">
+									<div className="font-primary font-semibold ">
 										<h4 className="mb-6 mt-0 text-3xl text-white md:text-6xl lg:text-6xl">
 											Abu Dhabi
 										</h4>
@@ -150,10 +150,10 @@ export function OurPresence () {
 								data-aos="fade-up"
 								data-aos-duration={1000}
 							>
-								<h3 className="my-0 text-6xl font-semibold md:text-9xl">
+								<h3 className="my-0 text-6xl font-primary font-semibold  md:text-6xl">
 									16+
 								</h3>
-								<p className="text-4xl font-semibold">
+								<p className="text-2xl font-primary font-semibold ">
 									Years of Experience
 								</p>
 							</div>
@@ -163,10 +163,10 @@ export function OurPresence () {
 								data-aos="fade-up"
 								data-aos-duration={1000}
 							>
-								<h3 className="my-0 text-6xl font-semibold md:text-9xl">
+								<h3 className="my-0 text-6xl font-primary font-semibold  md:text-6xl">
 									50+
 								</h3>
-								<p className="text-4xl font-semibold">
+								<p className="text-2xl font-primary font-semibold ">
 									Projects Completed
 								</p>
 							</div>
@@ -176,10 +176,10 @@ export function OurPresence () {
 								data-aos="fade-up"
 								data-aos-duration={1000}
 							>
-								<h3 className="my-0 text-6xl font-semibold md:text-9xl">
+								<h3 className="my-0 text-6xl font-primary font-semibold  md:text-6xl">
 									300+
 								</h3>
-								<p className="text-4xl font-semibold">
+								<p className="text-2xl font-primary font-semibold ">
 									Employees
 								</p>
 							</div>
