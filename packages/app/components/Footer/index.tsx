@@ -88,7 +88,7 @@ const Footer = (props: FooterProps) => {
 											listStyle: "outside none none",
 										}}
 									>
-										CONSTRUCT
+										Services
 									</a>
 									<ul className="mx-0 mb-0 mt-6 p-0 leading-7">
 										<li
@@ -107,7 +107,7 @@ const Footer = (props: FooterProps) => {
 														"outside none none",
 												}}
 											>
-												Contracting
+												Building Construction
 											</a>
 										</li>
 										<li
@@ -126,7 +126,7 @@ const Footer = (props: FooterProps) => {
 														"outside none none",
 												}}
 											>
-												Aviation Fueling
+												Design & Build
 											</a>
 										</li>
 									</ul>
@@ -146,7 +146,7 @@ const Footer = (props: FooterProps) => {
 											listStyle: "outside none none",
 										}}
 									>
-										MANUFACTURE
+										Projects
 									</a>
 									<ul className="mx-0 mb-0 mt-6 p-0 leading-7">
 										<li
@@ -165,7 +165,7 @@ const Footer = (props: FooterProps) => {
 														"outside none none",
 												}}
 											>
-												DuBox
+												Residential
 											</a>
 										</li>
 										<li
@@ -184,7 +184,7 @@ const Footer = (props: FooterProps) => {
 														"outside none none",
 												}}
 											>
-												DuPod
+												Commercial
 											</a>
 										</li>
 									</ul>
@@ -204,7 +204,7 @@ const Footer = (props: FooterProps) => {
 											listStyle: "outside none none",
 										}}
 									>
-										ENHANCE
+										About
 									</a>
 									<ul className="mx-0 mb-0 mt-6 p-0 leading-7">
 										<li
@@ -223,7 +223,7 @@ const Footer = (props: FooterProps) => {
 														"outside none none",
 												}}
 											>
-												Solar
+												Our Vision
 											</a>
 										</li>
 										<li
@@ -242,7 +242,7 @@ const Footer = (props: FooterProps) => {
 														"outside none none",
 												}}
 											>
-												Energy-Saving
+												Our Mission
 											</a>
 										</li>
 
@@ -266,68 +266,68 @@ const Footer = (props: FooterProps) => {
 										DEVELOP
 									</a>
 								</li>
-								<li
-									id="menu-item-3103"
-									className="mb-8 flex-shrink-0 flex-grow-0 basis-1/2 justify-end text-left font-normal leading-normal md:flex-none"
-									style={{ listStyle: "none" }}
-								>
-									<a
-										href="/contact-us"
-										className="mb-6 cursor-pointer text-2xl font-secondary leading-6 text-white hover:text-white"
-										style={{
-											textDecoration: "none",
-											transition:
-												"color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",
-											listStyle: "outside none none",
-										}}
-									>
-										Why Fusion Next?
-									</a>
-									<ul className="mx-0 mb-0 mt-6 p-0 leading-7">
-										<li
-											id="menu-item-3100"
-											className="mb-4 flex-shrink-0 flex-grow-0 basis-1/2 justify-end md:flex-shrink-0 md:flex-grow-0 md:basis-1/5"
-											style={{ listStyle: "none" }}
-										>
-											<a
-												href="/contact-us"
-												className="mr-6 cursor-pointer text-xl font-secondary font-light text-white hover:text-white"
-												style={{
-													textDecoration: "none",
-													transition:
-														"color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",
-													listStyle:
-														"outside none none",
-												}}
-											>
-												Sectors We serve
-											</a>
-										</li>
-										<li
-											id="menu-item-4496"
-											className="mb-4 flex-shrink-0 flex-grow-0 basis-1/2 justify-end md:flex-shrink-0 md:flex-grow-0 md:basis-1/5"
-											style={{ listStyle: "none" }}
-										>
-											<a
-												href="/contact-us"
-												className="mr-6 cursor-pointer text-xl font-secondary font-light text-white hover:text-white"
-												style={{
-													textDecoration: "none",
-													transition:
-														"color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",
-													listStyle:
-														"outside none none",
-												}}
-											>
-												Sustainability
-											</a>
-										</li>
+								{/*<li*/}
+								{/*	id="menu-item-3103"*/}
+								{/*	className="mb-8 flex-shrink-0 flex-grow-0 basis-1/2 justify-end text-left font-normal leading-normal md:flex-none"*/}
+								{/*	style={{ listStyle: "none" }}*/}
+								{/*>*/}
+								{/*	<a*/}
+								{/*		href="/contact-us"*/}
+								{/*		className="mb-6 cursor-pointer text-2xl font-secondary leading-6 text-white hover:text-white"*/}
+								{/*		style={{*/}
+								{/*			textDecoration: "none",*/}
+								{/*			transition:*/}
+								{/*				"color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",*/}
+								{/*			listStyle: "outside none none",*/}
+								{/*		}}*/}
+								{/*	>*/}
+								{/*		Why Fusion Next?*/}
+								{/*	</a>*/}
+								{/*	<ul className="mx-0 mb-0 mt-6 p-0 leading-7">*/}
+								{/*		<li*/}
+								{/*			id="menu-item-3100"*/}
+								{/*			className="mb-4 flex-shrink-0 flex-grow-0 basis-1/2 justify-end md:flex-shrink-0 md:flex-grow-0 md:basis-1/5"*/}
+								{/*			style={{ listStyle: "none" }}*/}
+								{/*		>*/}
+								{/*			<a*/}
+								{/*				href="/contact-us"*/}
+								{/*				className="mr-6 cursor-pointer text-xl font-secondary font-light text-white hover:text-white"*/}
+								{/*				style={{*/}
+								{/*					textDecoration: "none",*/}
+								{/*					transition:*/}
+								{/*						"color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",*/}
+								{/*					listStyle:*/}
+								{/*						"outside none none",*/}
+								{/*				}}*/}
+								{/*			>*/}
+								{/*				Sectors We serve*/}
+								{/*			</a>*/}
+								{/*		</li>*/}
+								{/*		<li*/}
+								{/*			id="menu-item-4496"*/}
+								{/*			className="mb-4 flex-shrink-0 flex-grow-0 basis-1/2 justify-end md:flex-shrink-0 md:flex-grow-0 md:basis-1/5"*/}
+								{/*			style={{ listStyle: "none" }}*/}
+								{/*		>*/}
+								{/*			<a*/}
+								{/*				href="/contact-us"*/}
+								{/*				className="mr-6 cursor-pointer text-xl font-secondary font-light text-white hover:text-white"*/}
+								{/*				style={{*/}
+								{/*					textDecoration: "none",*/}
+								{/*					transition:*/}
+								{/*						"color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out",*/}
+								{/*					listStyle:*/}
+								{/*						"outside none none",*/}
+								{/*				}}*/}
+								{/*			>*/}
+								{/*				Sustainability*/}
+								{/*			</a>*/}
+								{/*		</li>*/}
 
 
 
 
-									</ul>
-								</li>
+								{/*	</ul>*/}
+								{/*</li>*/}
 							</ul>
 						</div>
 					</div>
@@ -545,8 +545,8 @@ const Footer = (props: FooterProps) => {
 							{/*</div>*/}
 						</div>
 						<div className="mt-0 w-full max-w-full flex-shrink-0 px-4 text-right md:w-1/3 md:flex-none">
-							<p className="m-0 text-base font-normal leading-6 text-white">
-								Copyright © 2024 Fusion Next. All Rights Reserved.
+							<p className="m-0 text-base font-normal leading-6 text-white sm:hidden">
+								Copyright © 2024 Fusion Next.
 							</p>
 						</div>
 					</div>

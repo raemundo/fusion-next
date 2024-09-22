@@ -11,9 +11,11 @@ import { fallbackLng, languages } from "app/lib/i18n/settings";
 import { getTranslation } from "app/lib/i18n";
 import TranslationsProvider from "app/lib/i18n/TranslationProvider";
 
-import { Playfair_Display, DM_Sans } from "next/font/google";
+import { Playfair_Display, DM_Sans, Noto_Sans_HK } from "next/font/google";
+// HK Grotesk - 600
 
-const playfairDisplay = Playfair_Display({
+
+const playfairDisplay = Noto_Sans_HK({
 	subsets: ["latin"],
 	style: "normal",
 	variable: "--font-playfair-display",

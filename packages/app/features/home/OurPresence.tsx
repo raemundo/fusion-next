@@ -1,7 +1,7 @@
 export function OurPresence () {
 	return (
 		<section
-			className="relative w-full overflow-hidden py-12 leading-5 text-white  md:pt-24 xl:pb-0"
+			className="relative w-full overflow-hidden py-12 leading-5 text-black dark:text-white   md:pt-24 xl:pb-0"
 			style={{ zIndex: 1 }}
 			id=""
 		>
@@ -24,7 +24,7 @@ export function OurPresence () {
 						decoding="async"
 						src="https://www.groupamana.com/wp-content/themes/amana/images/Frame.svg"
 						alt="Decoration"
-						className="relative left-0 top-0 h-full w-full max-w-full object-contain align-middle md:object-cover"
+						className="relative left-0 top-0 h-full w-full max-w-full object-contain align-middle md:object-cover invert brightness-200 dark:invert-0 dark:brightness-100"
 						width={1193}
 						height={1376}
 						loading="lazy"
@@ -32,7 +32,7 @@ export function OurPresence () {
 						style={{ objectPosition: "center center" }}
 					/>
 				</div>
-				<ul className="absolute right-0 top-0 z-10 m-0 hidden list-none border-2 border-solid border-white p-6 font-bold lg:block">
+				<ul className="sm:rounded-[32px] absolute right-0 top-0 z-10 m-0 hidden list-none border-2 border-solid border-black dark:border-white  p-6 font-bold lg:block">
 					<li className="relative mb-4 pl-10 text-left leading-normal">
 						Fusion Next Offices
 					</li>
@@ -66,7 +66,7 @@ export function OurPresence () {
 				<div className="-mx-4 mb-12 mt-0 flex flex-wrap">
 					<div className="w-full max-w-full flex-shrink-0 px-4 md:w-5/12 md:flex-none">
 						<h4
-							className="mb-8 mt-0 transform-none text-5xl font-primary font-semibold  text-white duration-1000 md:mb-12 md:text-6xl lg:text-6xl lg:leading-none"
+							className="mb-8 mt-0 transform-none text-5xl font-primary font-semibold  text-black dark:text-white  duration-1000 md:mb-12 md:text-6xl lg:text-6xl lg:leading-none"
 							data-aos-delay={600}
 							data-aos="fade-up"
 							data-aos-duration={1000}
@@ -74,7 +74,7 @@ export function OurPresence () {
 							Our Presence
 						</h4>
 						<p
-							className="transform-none font-primary font-semibold  text-white delay-700 duration-1000"
+							className="transform-none font-primary font-semibold  text-black dark:text-white  delay-700 duration-1000"
 							data-aos-delay={700}
 							data-aos="fade-up"
 							data-aos-duration={1000}
@@ -88,9 +88,9 @@ export function OurPresence () {
 					</div>
 				</div>
 				<div className="-mx-4 mt-0 flex flex-wrap items-end justify-end">
-					<div className="w-full max-w-full flex-shrink-0 px-4 lg:w-1/3 lg:flex-none">
+					<div className="rounded-lg w-full max-w-full flex-shrink-0 px-4 lg:w-1/3 lg:flex-none">
 						<div
-							className="pointer-events-auto left-0 top-0 transform-none opacity-100 delay-700 duration-1000 lg:border lg:border-solid lg:border-white  lg:px-8 lg:pb-6 lg:pt-12"
+							className="sm:rounded-[32px] pointer-events-auto left-0 top-0 transform-none opacity-100 delay-700 duration-1000 lg:border lg:border-solid lg:border-black dark:border-white   lg:px-8 lg:pb-6 lg:pt-12"
 							id="tabs-content"
 							data-aos-delay={700}
 							data-aos="fade-up"
@@ -106,10 +106,10 @@ export function OurPresence () {
 									aria-labelledby="location1-tab"
 								>
 									<div className="font-primary font-semibold ">
-										<h4 className="mb-6 mt-0 text-3xl text-white md:text-6xl lg:text-6xl">
+										<h4 className="mb-6 mt-0 text-3xl text-black dark:text-white  md:text-6xl lg:text-6xl">
 											Abu Dhabi
 										</h4>
-										<p className="text-white">
+										<p className="text-black dark:text-white ">
 											Fusion Next Engineering,
 											Plot 14, Sector E 19, Abu
 											Dhabi, UAE.
@@ -145,7 +145,7 @@ export function OurPresence () {
 					<div className="hidden w-full max-w-full flex-shrink-0 px-4 md:block lg:w-2/3 lg:flex-none">
 						<div className="flex justify-between">
 							<div
-								className="transform-none text-center text-white opacity-100 delay-700 duration-1000"
+								className="transform-none text-center text-black dark:text-white  opacity-100 delay-700 duration-1000"
 								data-aos-delay={700}
 								data-aos="fade-up"
 								data-aos-duration={1000}
@@ -158,7 +158,7 @@ export function OurPresence () {
 								</p>
 							</div>
 							<div
-								className="transform-none text-center text-white opacity-100 delay-700 duration-1000"
+								className="transform-none text-center text-black dark:text-white  opacity-100 delay-700 duration-1000"
 								data-aos-delay={700}
 								data-aos="fade-up"
 								data-aos-duration={1000}
@@ -171,7 +171,7 @@ export function OurPresence () {
 								</p>
 							</div>
 							<div
-								className="transform-none text-center text-white opacity-100 delay-700 duration-1000"
+								className="transform-none text-center text-black dark:text-white  opacity-100 delay-700 duration-1000"
 								data-aos-delay={700}
 								data-aos="fade-up"
 								data-aos-duration={1000}
