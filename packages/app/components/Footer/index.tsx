@@ -19,7 +19,7 @@ const Footer = (props: FooterProps) => {
 					<div className="mb-12 mt-0 flex w-full max-w-full flex-auto flex-row justify-between px-4 xl:mb-0 xl:w-1/4 xl:flex-none xl:flex-col">
 						<div
 							dir="auto"
-							className="css-text-146c3p1 font-secondary text-4xl font-bold text-black dark:text-white"
+							className="css-text-146c3p1 font-secondary text-4xl font-bold text-white"
 						>
 							Fusion Next.
 						</div>

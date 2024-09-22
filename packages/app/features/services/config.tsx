@@ -2,7 +2,7 @@ import { Service } from "./types";
 
 const services: Service[] = [
 	{
-		image: "/images/services-1.jpg",
+		image: "/images/services-1.jpeg",
 		title: "services_1_title",
 		description: "services_1_description",
 		buttonString: "fluid_box_button",
